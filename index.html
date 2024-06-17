@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Scroll com Estilo</title>
+    <style>
+        /* Reset básico para remover as margens padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo para o cabeçalho */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 24px;
+        }
+
+        /* Estilo para o conteúdo da página */
+        .content {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        /* Estilo para a área de rolagem */
+        .scrollable-content {
+           display: flex;
+           flex-direction: column;
+           
+            background-color: #ffffff;
+            margin-bottom: 20px; /* Espaço abaixo da área de rolagem */
+        }
+
+        /* Estilo para os itens dentro da área de rolagem */
+        .scroll-item {
+            padding: 10px;
+            border-bottom: 1px solid #ddd; /* Linha separadora entre os itens */
+        }
+
+        /* Estilo para o último item remover a borda inferior */
+        .scroll-item:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Meu Teste de Scroll</header>
+
+    <div class="content">
+        <div class="scrollable-content">
+            <!-- Conteúdo que será rolado -->
+            <div class="scroll-item">Item 1</div>
+            <div class="scroll-item">Item 2</div>
+            <div class="scroll-item">Item 3</div>
+            <!-- Adicione mais itens aqui para testar o scroll -->
+            <div class="scroll-item">Item 4</div>
+            <div class="scroll-item">Item 5</div>
+            <div class="scroll-item">Item 6</div>
+            <div class="scroll-item">Item 4</div>
+            <div class="scroll-item">Item 5</div>
+            <div class="scroll-item">Item 6</div>
+            <div class="scroll-item">Item 4</div>
+            <div class="scroll-item">Item 5</div>
+            <div class="scroll-item">Item 6</div>
+            <div class="scroll-item">Item 4</div>
+            <div class="scroll-item">Item 5</div>
+            <div class="scroll-item">Item 6</div>
+            <div class="scroll-item">Item 4</div>
+            <div class="scroll-item">Item 5</div>
+            <div class="scroll-item">Item 6</div>
+            <div class="scroll-item">Item 4</div>
+            <div class="scroll-item">Item 5</div>
+            <div class="scroll-item">Item 6</div>
+            <div class="scroll-item">Item 4</div>
+            <div class="scroll-item">Item 5</div>
+            <div class="scroll-item">Item 6</div>
+            <div class="scroll-item">Item 4</div>
+            <div class="scroll-item">Item 5</div>
+            <div class="scroll-item">Item 6</div>
+            <div class="scroll-item">Item 4</div>
+            <div class="scroll-item">Item 5</div>
+            <div class="scroll-item">Item 6</div>
+        </div>
+
+        
+        <p>Outras informações podem ser adicionadas aqui fora da área de rolagem.</p>
+    </div>
+
+</body>
+</html>
